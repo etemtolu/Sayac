@@ -10,7 +10,7 @@ btns.forEach(function(btn){
         }else if(styles.contains('increase')){
             sayac++;
         }else{
-            sayac =0;
+            sayac = 0;
         }
         if(sayac > 0){
             value.style.color = 'green';
